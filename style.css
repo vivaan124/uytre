@@ -1,0 +1,30 @@
+* {
+    font-family: impact;
+}
+
+.header {
+    background-color: #fff8dc;
+    color: blue;
+}
+
+body {
+    height: 100vh;
+    background-color: #a9f04b;
+}
+
+#score {
+    position: absolute;
+    left: 1vw;
+}
+
+#timer {
+    position: absolute;
+    left: 90vw;
+}
+
+canvas {
+    border: 0.5px solid black;
+    margin-top: 100px;
+    background-color: white;
+    transition-duration: 150ms;
+}
